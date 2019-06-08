@@ -1,0 +1,30 @@
+/*!-- NAVBAR CSS HERE --!*/
+.Navbar {
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.LogoImage {
+  width: 100px;
+  float: left;
+}
+.navbarLinks {
+  float: right;
+}
+.navbarLinks .Link {
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+/*!-- FOOTER CSS HERE --!*/
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  margin-top:3000px;
+}
