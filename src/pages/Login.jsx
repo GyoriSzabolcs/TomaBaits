@@ -1,16 +1,15 @@
 import React from 'react';
 import logo from './../logo.svg';
 
-
 import Navbar from './../components/Navbar.js';
 import Footer from './../components/Footer.js';
 import AnimatedGradient from './../components/AnimatedGradient.jsx';
-import RegisterForm from './../components/RegisterForm.jsx';
+import LoginForm from './../components/LoginForm.jsx';
 
-import {faUsers, faSignInAlt} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faUsers, faSignInAlt} from '@fortawesome/free-solid-svg-icons';
 
-class Register extends React.Component {
+class Login extends React.Component {
   render(){
 
     var registerText = 'Register';
@@ -19,14 +18,13 @@ class Register extends React.Component {
       <div className="Register">
       <div className="contentWrap">
       <Navbar />
-      <AnimatedGradient icon={faUsers} />
-      <RegisterForm />
+      <AnimatedGradient icon={faSignInAlt} />
+      <LoginForm />
       </div>
       <Footer />
       </div>
     );
 }
-
 }
 
-export default Register;
+export default Login;
