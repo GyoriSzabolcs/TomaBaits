@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './../logo.svg';
 
+
 import Navbar from './../components/Navbar.js';
 import Footer from './../components/Footer.js';
 import AnimatedGradient from './../components/AnimatedGradient.jsx';
@@ -25,6 +26,7 @@ class Register extends React.Component {
       </div>
     );
 }
+
 }
 
 export default Register;

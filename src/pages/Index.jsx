@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './../logo.svg';
+
 import img1 from './../images/img1Placeholder.jpg'
 import img2 from './../images/img2Placeholder.jpg'
 import img3 from './../images/img3Placeholder.jpg'
@@ -19,9 +20,11 @@ import {Carousel} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
 
+
 class Index extends React.Component{
   render(){
   return (
+
     <div className="Register">
     <div className="contentWrap">
     <Navbar />
@@ -32,6 +35,7 @@ class Index extends React.Component{
     <PromotionalProducts />
     </div>
     <Footer />
+
     </div>
   );
 }

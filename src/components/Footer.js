@@ -1,14 +1,17 @@
 import React from 'react';
 import './../layout.css';
+
 import logo from './../images/placeholderLogo.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
 import {faFacebookSquare, faTwitterSquare, faInstagram, faPinterestSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
+
 function Footer() {
   return (
     <div className="Footer">
+
     <div className="footerLeft">
       <div className="footerLeftLeft">
         <h3>TomaBaits</h3>
@@ -36,6 +39,7 @@ function Footer() {
           <p>AboutUs</p>
         </div>
     </div>
+
     </div>
   );
 }
